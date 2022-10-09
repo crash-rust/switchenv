@@ -1,0 +1,2 @@
+[workspace]
+members = ["switch-env-ui","switch-env-tauri", "switch-env-cli"]

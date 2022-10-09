@@ -1,0 +1,113 @@
+.setting-container {
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 12px;
+  height: 80vh;
+  box-shadow: 0px 2px 8px rgba(25, 29, 38, 0.05),
+    0px 8px 24px rgba(25, 29, 38, 0.15);
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-container .setting-item {
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 2px 8px rgba(25, 29, 38, 0.05),
+    0px 8px 24px rgba(25, 29, 38, 0.15);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.setting-env-text {
+  font-weight: 500;
+  text-align: left;
+}
+
+.setting-container .enmac-setting {
+  flex: 1.5;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.setting-container .enmac-setting .title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.setting-container .enmac-setting .enmac-env-change {
+  margin-right: 15px;
+}
+
+.setting-container .system-setting {
+  flex: 2;
+  border-radius: 8px;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.setting-container .system-setting .title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.enmac-env-change {
+  height: 56px;
+}
+
+.wifi-proxy,
+.lan-proxy {
+  flex-direction: column;
+}
+
+.proxy-control {
+  width: 100%;
+}
+
+.proxy-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.proxy-item {
+  flex: 1;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.proxy-item-text {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.proxy-server-wrapper,
+.proxy-port-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.proxy-server,
+.proxy-port {
+  width: 50px;
+  margin-left: 8px;
+  font-size: 14px;
+}
+
+.proxy-input {
+  flex: 1;
+}
+
+.tab-group-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

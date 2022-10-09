@@ -1,0 +1,67 @@
+{
+  "build": {
+    "beforeDevCommand": "cargo run -p switch-env-cli && trunk serve switch-env-ui/index.html",
+    "beforeBuildCommand": "trunk build",
+    "devPath": "http://localhost:1420",
+    "distDir": "./dist",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "SwitchEnv",
+    "version": "0.0.1"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "http": {
+        "all": true,
+        "request": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": ["icons/32x32.png", "icons/128x128.png", "icons/icon.icns"],
+      "identifier": "com.tauri.test",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "title": "SwitchEnv",
+        "width": 960,
+        "height": 540,
+        "minWidth": 960,
+        "minHeight": 540,
+        "resizable": false,
+        "fullscreen": false,
+        "center": true
+      }
+    ]
+  }
+}

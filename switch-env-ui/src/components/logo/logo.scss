@@ -1,0 +1,15 @@
+.header-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-wrapper .header-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.header-logo-wrapper .header-text {
+  width: 80px;
+  height: 80px;
+  margin-left: 6px;
+}

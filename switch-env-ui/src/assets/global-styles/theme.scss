@@ -1,0 +1,166 @@
+* {
+  --color-brand-1: #e8fff3;
+  --color-brand-2: #b2f5d4;
+  --color-brand-3: #80eaba;
+  --color-brand-4: #52e0a4;
+  --color-brand-5: #28d592;
+  --color-brand-6: #00c881;
+  --color-brand-7: #00aa74;
+  --color-brand-8: #008c64;
+  --color-brand-9: #006c51;
+  --color-brand-10: #004d3c;
+  --color-warning-1: #fff3e8;
+  --color-warning-2: #fedcbf;
+  --color-warning-3: #fcc298;
+  --color-warning-4: #fea571;
+  --color-warning-5: #fc8748;
+  --color-warning-6: #fb6621;
+  --color-warning-7: #cc4812;
+  --color-warning-8: #a53109;
+  --color-warning-9: #781f03;
+  --color-warning-10: #4d0e00;
+  --color-error-1: #ffede8;
+  --color-error-2: #ffd4c9;
+  --color-error-3: #ffb8aa;
+  --color-error-4: #ff9a8a;
+  --color-error-5: #ff796b;
+  --color-error-6: #ff584c;
+  --color-error-7: #c7312d;
+  --color-error-8: #a61919;
+  --color-error-9: #79090d;
+  --color-error-10: #4d0005;
+  --color-success-1: #e8fff3;
+  --color-success-2: #b2f5d4;
+  --color-success-3: #80eaba;
+  --color-success-4: #52e0a4;
+  --color-success-5: #28d592;
+  --color-success-6: #00c881;
+  --color-success-7: #00aa74;
+  --color-success-8: #008c64;
+  --color-success-9: #006c51;
+  --color-success-10: #004d3c;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-1: #f4f6f9;
+  --color-gray-2: #eceef3;
+  --color-gray-3: #dbdee4;
+  --color-gray-4: #ced2d9;
+  --color-gray-5: #bec2cc;
+  --color-gray-6: #a1a7b2;
+  --color-gray-7: #828a99;
+  --color-gray-8: #626773;
+  --color-gray-9: #303540;
+  --color-gray-10: #191d26;
+
+  /*基础颜色*/
+  /*品牌色*/
+  --color-brand-normal: --color-brand-6; /*默认态*/
+  --color-brand-hover: --color-brand-5; /*hover态*/
+  --color-brand-active: --color-brand-7; /*点击态*/
+  --color-brand-disabled: --color-brand-2; /*禁用态*/
+  --color-brand-bg: --color-brand-1; /*浅色背景*/
+  --color-brand-pressed: --color-brand-7; /*点击态*/
+
+  /*警告色*/
+  --color-warning-normal: --color-warning-6;
+  --warning-color-hover: --color-warning-5;
+  --warning-color-active: --color-warning-7;
+  --warning-color-disabled: --color-warning-2;
+  --warning-color-bg: --color-warning-1;
+
+  /*失败/错误色扩展*/
+  --color-error-normal: --color-error-6;
+  --color-error-hover: --color-error-5;
+  --color-error-active: --color-error-7;
+  --color-error-disabled: --color-error-2;
+  --color-error-bg: --color-error-1;
+
+  /*成功色扩展*/
+  --color-success-normal: --color-success-6;
+  --color-success-hover: --color-success-5;
+  --color-success-active: --color-success-7;
+  --color-success-disabled: --color-success-2;
+  --color-success-bg: --color-success-1;
+
+  /*背景色*/
+  --color-bg-white: --color-white; /*白，用于页面背景色*/
+  --color-bg-gray-primary: --color-gray-1; /*灰，用于页面浅色背景色，一级*/
+  --color-bg-gray-secondary: --color-gray-2; /*灰，用于页面浅色背景色，二级*/
+  --color-bg-black-primary: --color-gray-8; /*黑，用于页面深色背景色，一级*/
+  --color-bg-black-secondary: --color-gray-10; /*黑，用于页面深色背景色，二级*/
+
+  /*文字颜色*/
+  --color-text-gray-primary: --color-gray-10; /*灰色一级文本，强调/正文标题*/
+  --color-text-gray-secondary: --color-gray-8; /*灰色二级文本，次强调/正文标题*/
+  --color-text-gray-tertiary: --color-gray-6; /*灰色三级文本，描述信息、占位符*/
+  --color-text-gray-disabled: --color-gray-4; /*灰色四级文本，不可点击、置灰状态*/
+  --color-text-white: --color-white; /*白色文本，用于按钮*/
+  --color-text-brand: --color-brand-8; /*品牌文字*/
+  --color-text-link: --color-brand-8; /*链接文字*/
+
+  /*图标颜色*/
+  --color-icon-gray-primary: --color-gray-10; /*一级图标*/
+  --color-icon-gray-secondary: --color-gray-8; /*二级图标*/
+  --color-icon-gray-tertiary: --color-gray-6; /*三级图标*/
+  --color-icon-gray-quaternary: --color-gray-4; /*四级图标，不可点击、置灰状态*/
+  --color-icon-white: --color-white; /*白色图标，用于按钮内、深色背景图标*/
+
+  /*组件填充*/
+  --color-fill-white: --color-white; /*填充白*/
+  --color-fill-primary: --color-gray-1; /*白色悬浮/一级灰色常规*/
+  --color-fill-secondary: --color-gray-2; /*白色点击/一级灰色悬浮/二级灰色常规*/
+  --color-fill-tertiary: --color-gray-3; /*白色点击/一级灰色悬浮/二级灰色常规*/
+  --color-fill-quaternary: --color-gray-4; /*二级灰色点击*/
+
+  /*线条*/
+  --color-border-primary: --color-gray-1; /*浅，用于页面列表分割线*/
+  --color-border-secondary: --color-gray-2; /*一般，用于搜索框、辅助按钮描边*/
+  --color-border-tertiary: --color-gray-3; /*深，用于灰色背景线条*/
+  --color-border-white: --color-white; /*白，用于深色背景线条*/
+
+  /*遮罩*/
+  --mask-black: rgba(25, 29, 38, 0.6); /*黑色遮罩*/
+  --mask-white: rgba(255, 255, 255, 0.6); /*白色遮罩*/
+
+  /*阴影*/
+  --shadow-bottom: 0px 2px 8px rgba(25, 29, 38, 0.04); /*基础投影  一级阴影，低层级元素（例如模块、卡片等）*/
+  --shadow-middle: 0px 4px 16px rgba(25, 29, 38, 0.12); /*中层投影  二级阴影，交互操作唤出（例如气泡、下拉菜单、提示）*/
+  --shadow-top: 0px 8px 24px rgba(25, 29, 38, 0.04),
+    0px 2px 8px rgba(25, 29, 38, 0.05); /*顶层投影 三级阴影，蒙层界面顶层（模态弹窗、对话框）*/
+
+  /*圆角*/
+  --border-radius-none: 0px; /*直角边框*/
+  --border-radius-small: 2px; /*小圆角，常应用按钮、选项框等*/
+  --border-radius-medium: 4px; /*中圆角，常用于卡片/弹窗等*/
+  --border-radius-large: 8px; /*大圆角，常用于较大区域特殊展示*/
+  --border-radius-extraLarge: 16px; /*较大圆角，运营图，特殊使用*/
+  --border-radius-circle: 50%; /*全圆角，特殊按钮使用*/
+
+  /*提示背景*/
+  --color-toast-bg: rgba(25, 29, 38, 0.9);
+
+  /*滚动条颜色*/
+  --color-scrollbar-normal: rgba(25, 29, 38, 0.1);
+  /*滚动条悬浮颜色（ hover ）*/
+  --color-scrollbar-hover: rgba(25, 29, 38, 0.3);
+  /*滚动条轨道颜色，不能是带透明度，否则纵向滚动时，横向滚动条会穿透*/
+  --scroll-track-color: --color-white;
+
+  --border-radius-small: 2px;
+  --border-radius-medium: 4px;
+}
+
+/*禁用的透明度, 调用 .disabled()*/
+.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.propertyPanel-padding {
+  padding: 0 16px;
+}
+
+.propertyPanel-margin {
+  margin-top: 16px;
+}

@@ -1,0 +1,23 @@
+.layout-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    -75deg,
+    rgba(5, 109, 232, 0.6),
+    rgba(124, 178, 245, 0.5),
+    rgb(255, 255, 255)
+  );
+  background-size: 100% 100%;
+}
+
+.layout-container .header {
+  display: flex;
+  margin-left: 30px;
+  height: 50px;
+}
+
+.layout-container .main {
+  flex: 1;
+  padding: 25px;
+}
