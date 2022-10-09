@@ -1,7 +1,6 @@
 use crate::components::{tabgroup::Env, TabGroup, TextInput};
 use serde::{Deserialize, Serialize};
 use serde_wasm_bindgen::to_value;
-use stylist::yew::styled_component;
 use wasm_bindgen::prelude::*;
 use wasm_bindgen_futures::spawn_local;
 use yew::prelude::*;
@@ -19,7 +18,7 @@ struct EnmacConfig {
     env: Env,
 }
 
-#[styled_component(SettingBox)]
+#[function_component(SettingBox)]
 pub fn setting_box() -> Html {
     let current_env = use_state(|| Env::Test);
     let cloned_current_env = current_env.clone();

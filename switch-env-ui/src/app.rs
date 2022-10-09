@@ -1,8 +1,7 @@
 use crate::components::{HeaderLogo, SettingBox};
-use stylist::yew::styled_component;
 use yew::prelude::*;
 
-#[styled_component(App)]
+#[function_component(App)]
 pub fn app() -> Html {
     html! {
         <div>

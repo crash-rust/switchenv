@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use stylist::yew::styled_component;
 use yew::prelude::*;
 
 #[derive(PartialEq, Clone, Deserialize, Serialize)]
@@ -16,7 +15,7 @@ pub struct TabGroupProps {
     pub onchange: Callback<Env>,
 }
 
-#[styled_component(TabGroup)]
+#[function_component(TabGroup)]
 pub fn tab_group(
     TabGroupProps {
         left_tab,
